@@ -96,10 +96,6 @@ export default function Home() {
             <BookOpen className="w-3.5 h-3.5 text-blue-400" />
             Toplam {QUIZ_TOPICS[0].questions.length} Soru
           </span>
-          <span className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-slate-800/80 border border-slate-700/60">
-            <Clock className="w-3.5 h-3.5 text-emerald-400" />
-            Vizeye 2 Gün Kaldı
-          </span>
         </div>
       </header>
 
