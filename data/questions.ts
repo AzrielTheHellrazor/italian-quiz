@@ -1076,5 +1076,99 @@ export const QUIZ_QUESTIONS: Question[] = [
     ],
     correctAnswer: 'costa / Costa / costano / Costano',
     explanation: 'Tekil için "quanto costa? - Costa 12 euro", çoğul için "quanto costano? - Costano 6 euro" kullanılır.'
+  },
+
+  // ==========================================
+  // 8. Libro mio (Chiaro! A1 s. 1-28) Özel Soruları - 6 Soru
+  // ==========================================
+  {
+    id: 'chiaro1',
+    category: 'vocabolario',
+    categoryLabel: 'Sözlük & Sınıf Eşyaları',
+    prompt: 'Chiaro! Lezione 1\'de tanıtılan İtalyan kültürel simgeleri ile bulundukları şehir/bölge eşleştirmelerinden hangisi doğrudur?',
+    italianContext: 'I grandi simboli d\'Italia: Colosseo, Piazza San Marco, Duomo di Milano, Vino Chianti e Cannoli siciliani.',
+    options: [
+      'Colosseo ➔ Roma / Piazza San Marco ➔ Venezia / Cannoli ➔ Sicilia',
+      'Colosseo ➔ Milano / Piazza San Marco ➔ Roma / Cannoli ➔ Firenze',
+      'Colosseo ➔ Venezia / Piazza San Marco ➔ Napoli / Cannoli ➔ Bologna',
+      'Colosseo ➔ Firenze / Piazza San Marco ➔ Roma / Cannoli ➔ Torino'
+    ],
+    correctAnswer: 'Colosseo ➔ Roma / Piazza San Marco ➔ Venezia / Cannoli ➔ Sicilia',
+    explanation: 'Chiaro! Lezione 1 açılışında tanıtılan ünlü İtalyan simgeleri: Colosseo Roma\'da, Piazza San Marco Venedik\'te (Venezia), Duomo Milano\'da, Chianti şarabı Toskana/Floransa\'da ve Cannoli ise Sicilya\'da (Sicilia) meşhurdur.'
+  },
+  {
+    id: 'chiaro2',
+    category: 'formale_informale',
+    categoryLabel: 'Formale vs Informale',
+    prompt: 'Resmi bir toplantıda yanınızdaki kişiyi üçüncü bir şahsa tanıştırırken (Lei formu) hangi ifade kullanılır?',
+    italianContext: 'In ufficio: — Signor Rossi, _______ il Signor Bianchi, il nostro nuovo collega.',
+    options: [
+      'Le presento',
+      'Ti presento',
+      'Questo è',
+      'Mi chiamo'
+    ],
+    correctAnswer: 'Le presento',
+    explanation: 'Resmi (formale) durumlarda birini tanıştırırken "Le presento..." (Size takdim ederim / tanıştırayım) nezaket kalıbı kullanılır. Samimi (informale) durumlarda ise "Ti presento..." veya "Questo è / Questa è..." denir.'
+  },
+  {
+    id: 'chiaro3',
+    category: 'vocabolario',
+    categoryLabel: 'Sözlük & Sınıf Eşyaları',
+    prompt: '«Come stai?» (Nasılsın?) sorusuna verilen yanıtlardan hangisi "Çok kötüyüm! Nezle oldum / soğuk algınlığım var" anlamına gelir?',
+    italianContext: '— Ciao Luca, come va? — _______ !',
+    options: [
+      '«Malissimo! Ho il raffreddore.»',
+      '«Benissimo! Ho fame.»',
+      '«Non c\'è male, grazie.»',
+      '«Abbastanza bene, ho sonno.»'
+    ],
+    correctAnswer: '«Malissimo! Ho il raffreddore.»',
+    explanation: 'Chiaro! Lezione 1-2 sağlık ve durum kalıpları: "Malissimo!" (Çok kötü / berbat!), "Ho il raffreddore" (Nezleyim / soğuk algınlığım var) demektir. "Non c\'è male" (Fena değil), "Abbastanza bene" (Oldukça iyi), "Benissimo" (Çok iyi) anlamlarına gelir.'
+  },
+  {
+    id: 'chiaro4',
+    category: 'formale_informale',
+    categoryLabel: 'Formale vs Informale',
+    prompt: 'Tanışma sırasında karşınızdaki kişinin söylediklerine karşılık "Ben de!" (Me too) diyerek aynı durumda veya aynı isimde olduğunuzu belirtmek için hangi kalıp kullanılır?',
+    italianContext: '— Piacere, mi chiamo Gucci. — Piacere, _______ mi chiamo Gucci!',
+    options: [
+      'Anch\'io',
+      'Anche tu',
+      'Anche Lei',
+      'Solo io'
+    ],
+    correctAnswer: 'Anch\'io',
+    explanation: 'İtalyancada "Ben de / Ben dahi" demek için "Anche" (de/da) ile "io" (ben) kaynaşır ve apostrofla "Anch\'io" şeklinde yazılır ("Anch\'io mi chiamo...", "Anch\'io sono di Roma").'
+  },
+  {
+    id: 'chiaro5',
+    category: 'verbi',
+    categoryLabel: 'Fiil Çekimleri (Essere, Avere, Stare, -ARE)',
+    prompt: '«Floransa\'da, Katedralin (Duomo) yakınında oturuyorum» cümlesindeki boşluklara sırasıyla hangi edat ve artikelli edat yapısı gelmelidir?',
+    italianContext: '— Dove abiti? — Abito _______ Firenze, _______ Duomo.',
+    options: [
+      'a / vicino al',
+      'in / vicino il',
+      'di / vicino del',
+      'da / vicino a'
+    ],
+    correctAnswer: 'a / vicino al',
+    explanation: 'Şehir isimlerinin önüne "a" edatı gelir (a Firenze). Bir yerin yakınında olduğunu ifade etmek için "vicino a" yapısı kullanılır; eril isim "il Duomo" ile birleştiğinde "vicino al" (vicino + a + il Duomo) olur.'
+  },
+  {
+    id: 'chiaro6',
+    category: 'vize_simulazione',
+    categoryLabel: 'Vize Sınavı Simülasyonu (Test 1)',
+    prompt: 'Dersin veya görüşmenin bitiminde "Yakında görüşürüz!" ve "Yarın görüşürüz!" anlamında kullanılan vedalaşma ifadeleri hangi seçenekte doğru verilmiştir?',
+    italianContext: 'Alla fine della lezione: — Arrivederci professore, _______ ! — Ciao a tutti, _______ !',
+    options: [
+      'A presto! / A domani!',
+      'Per favore! / Prego!',
+      'Buonanotte! / Buon appetito!',
+      'Piacere! / Di niente!'
+    ],
+    correctAnswer: 'A presto! / A domani!',
+    explanation: 'Chiaro! Lezione 1-2 vedalaşma kalıplarında "A" edatlı zaman ifadeleri kullanılır: "A presto!" (Yakında görüşmek üzere), "A domani!" (Yarına / Yarın görüşmek üzere!), "A dopo!" (Sonra görüşürüz!).'
   }
 ];
