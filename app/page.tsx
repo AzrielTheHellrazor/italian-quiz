@@ -100,10 +100,6 @@ export default function Home() {
             <Clock className="w-3.5 h-3.5 text-emerald-400" />
             Vizeye 2 Gün Kaldı
           </span>
-          <span className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-slate-800/80 border border-slate-700/60">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            Otomatik Agent Güncellemeli
-          </span>
         </div>
       </header>
 
